@@ -6,7 +6,7 @@
     `sudo apt-get update`
     `sudo raspi-config`
  > 选择Iterfacing Option->SSH,选择打开，安装完之后，重启(sudo reboot)
- > 然后打开处于同个局域网的另一台终端输入 >ssh@你的树莓派内网的IP地址
+ > 然后打开处于同个局域网的另一台终端输入:`ssh@你的树莓派内网的IP地址`
  ***外网连接***
    设置静态IP
    `sudo nano /etc/dhcpcd.conf`
